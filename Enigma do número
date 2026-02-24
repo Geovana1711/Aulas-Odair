@@ -1,0 +1,9 @@
+#enigma do número primeiro desafio (Odair)
+enigma = 12
+print("Esse é o jogo do enigma secreto. Dica : x + 2x = 36")
+resposta = input("Qual é o número?")
+if resposta == enigma:
+    print("Um gênio? Acertou")
+else:
+    print("hummm. tenta de novo")
+
