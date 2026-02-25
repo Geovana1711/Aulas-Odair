@@ -1,0 +1,8 @@
+#Equação 4 3x - 9 = x
+numero_enigma = 4.5
+resultado = (numero_enigma * 3) - 9 
+resposta = input('multiplique 3 a um número. Subtrai 9. Logo terá o próprio número, que número eu sou? ')
+if resultado == resposta:
+ print('Certa resposta')
+else: 
+ print('Volta para o papel e tenta de novo')
