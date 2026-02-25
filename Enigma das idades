@@ -1,0 +1,26 @@
+ #enigma das idades
+joao = 35
+carlos = 15
+pedro = carlos
+
+print('Olá, telespectador, hoje o enigma será um pouco diferente. Um grupo de amigos composto por João, Pedro e Carlos, resolvem sair e João e Carlos acabam bebendo demais. Sabendo qque João é péssimo da memória,' \
+' Pedro resolve pregar uma peça, apostando que iria pagar a conta do role caso João descobrisse a sua idade e de Carlos, e lhe deu três dicas: ''A minha idade é igual a de Carlos, ' \
+'E a sua idade, João, é o dobro da minha e também a soma das nossas idades são 60.')
+
+resposta = input('A verdadeira questão é quantos anos João tem?')
+
+if resposta == joao:
+ print('Opa, parece que Pedro acabou pagando a conta, seu bêbado!')
+
+resposta_idade_pedro = input(' Se você é bom mesmo, qqual é a idade de Pedro?')
+
+if resposta_idade_pedro == pedro:
+ print('Parabéns, 0 álcool e 100 inteligência')
+
+elif resposta_idade_pedro != pedro:
+ print('Parece qque alguém bebeu um pouco ou não estudou muito.')
+
+elif resposta != joao:
+ print(' VAI TER QUE PAGAR A CONTA')
+ 
+
