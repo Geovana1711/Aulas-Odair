@@ -1,0 +1,22 @@
+#Adivinhe o número
+# Professor Odair, acabei retirando a variável final do resultado de x - x/3 porque a resposta está na eqquação já.
+
+resposta = int(input('Você saberia resolver essa conta? x-x/3 = 20 Se sim, quanto vale x? '))
+x = 30
+terca_parte = x/3
+resultado = x - terca_parte
+resposta_terca_parte = None
+resposta_perdida = None
+ 
+if resposta == x:
+   resposta_terca_parte = int(input('Parabéns! Agora me diga quanto vale a terça parte de x '))
+   resposta_perdida = 1
+
+else :
+    print('Tenta de novo ):')
+
+if resposta_terca_parte == terca_parte:
+    print('Parabéns')
+
+elif resposta_terca_parte != terca_parte and resposta_perdida == 1 :
+ print('EITA, algo está errado.')
